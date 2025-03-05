@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2B1B17; /* Fundo mais elegante e profundo */
+    color: #F4EDE3;
+}
+
+.container {
+    text-align: center;
+    background-color: #D4B59E; /* Tom quente e sofisticado */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #A68A74;
+}
+
+h1 {
+    color: #4A2F27;
+}
+
+p {
+    color: #4A2F27;
+    font-size: 1.1em;
+}
+
+.saudacao {
+    font-size: 1.5rem;
+    color: #8C2F39; /* Destaque sutil */
+    margin-top: 10px;
+}
+
+button {
+    background-color: #8C2F39;
+    color: #F4EDE3;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #B85750;
+    transform: scale(1.05);
+}
